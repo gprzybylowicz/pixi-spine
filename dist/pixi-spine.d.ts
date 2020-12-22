@@ -1384,8 +1384,6 @@ declare module PIXI.spine {
         constructor(spineData: core.SkeletonData);
         get autoUpdate(): boolean;
         set autoUpdate(value: boolean);
-        get visible(): boolean;
-        set visible(value: boolean);
         get tint(): number;
         set tint(value: number);
         get delayLimit(): number;
